@@ -1,32 +1,15 @@
-# React + TypeScript + Vite
+# Installation
+> `npm install --save @types/three`
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Summary
+This package contains type definitions for three (https://threejs.org/).
 
-Currently, two official plugins are available:
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/three.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Additional Details
+ * Last updated: Tue, 04 Aug 2026 20:03:44 GMT
+ * Dependencies: [@dimforge/rapier3d-compat](https://npmjs.com/package/@dimforge/rapier3d-compat), [@tweenjs/tween.js](https://npmjs.com/package/@tweenjs/tween.js), [@types/stats.js](https://npmjs.com/package/@types/stats.js), [@types/webxr](https://npmjs.com/package/@types/webxr), [fflate](https://npmjs.com/package/fflate), [meshoptimizer](https://npmjs.com/package/meshoptimizer)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+# Credits
+These definitions were written by [Josh Ellis](https://github.com/joshuaellis), and [Nathan Bierema](https://github.com/Methuselah96).
